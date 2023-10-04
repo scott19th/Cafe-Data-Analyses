@@ -6,9 +6,13 @@ The business name and all data have been changed for privacy but the files were 
 
 These projects include:
 
-**Sankey Diagram** - The company needed a better understanding of the flows of capital through the business. I used Python script and the plolty library to create to create a visulisation of the companies Cost of Sales. This involved linking 17 Values accross 13 source nodes and 9 target nodes. I used a custom colour pallet to match company brand colours.
+**Sankey Diagram** - Moak_Coffee_Sankey.PY Script 
 
-**Popular Products** - The company was able to view best selling departments and products data for each store however it was only able to be viewed one store at a time and onlt in .csv format which did not give a dynamic visual representation of the data. I created a directory to house the .csv exports. Using Python I created a list of the .csv files and then iterated over them to create a plotly sunburst chart for each store. The name of the file was used to create the chart title and zero sale products are automatically stripped out.
+The company needed a better understanding of the flows of capital through the business. I used Python script and the plolty library to create to create a visulisation of the companies Cost of Sales. This involved linking 17 Values accross 13 source nodes and 9 target nodes. I used a custom colour pallet to match company brand colours.
+
+**Popular Products** - Multi_Sunburst.PY Script
+
+The company was able to view best selling departments and products data for each store however it was only able to be viewed one store at a time and onlt in .csv format which did not give a dynamic visual representation of the data. I created a directory to house the .csv exports. Using Python I created a list of the .csv files and then iterated over them to create a plotly sunburst chart for each store. The name of the file was used to create the chart title and zero sale products are automatically stripped out.
 
 **Automation of Order Sheets** - Using python to create an engineering soloution to automate the manual process of exporting, sorting online sales orders into both a bakery bake list and drivers delivery sheets.
 
