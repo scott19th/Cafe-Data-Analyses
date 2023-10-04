@@ -6,17 +6,9 @@ The business name and all data have been changed for privacy but the files were 
 
 These projects include:
 
-**Sankey Diagram** - Using Python to create a visualisation of the company income statement in a sankey diagram
+**Sankey Diagram** - The company needed a better understanding of the flows of capital through the business. I used Python script and the plolty library to create to create a visulisation of the companies Cost of Sales. This involved linking 17 Values accross 13 source nodes and 9 target nodes. I used a custom colour pallet to match company brand colours.
 
-Problem: The company needed a better understanding of the flows of capital in and out of the business.
-
-Soloution: I used Python and the plotly library to create a visulisation of the companies income statement. This involved linking 17 Values accross 13 source nodes and 9 target nodes. I used a custom colour pallet to match company brand colours.
-
-**Popular Products** - Using Python compile sales information from multiple different sources, clean the data and create a pie chart to elequently show the best selling departments on a company level
-
-Problem: The company was able to view best selling departments for each individual unit using their EPOS software but were unable to view best sellers accross the company as a whole.
-
-Soloution: I used Python and the Pandas library to import the multiple sales CSV's from the different cafe units and then compile them into one data frame. Once complete I cleaned the data and used Matplotlib to create a Pie Chart to visulise the analyses.
+**Popular Products** - The company was able to view best selling departments and products data for each store however it was only able to be viewed one store at a time and onlt in .csv format which did not give a dynamic visual representation of the data. I created a directory to house the .csv exports. Using Python I created a list of the .csv files and then iterated over them to create a plotly sunburst chart for each store. The name of the file was used to create the chart title and zero sale products are automatically stripped out.
 
 **Automation of Order Sheets** - Using python to create an engineering soloution to automate the manual process of exporting, sorting online sales orders into both a bakery bake list and drivers delivery sheets.
 
